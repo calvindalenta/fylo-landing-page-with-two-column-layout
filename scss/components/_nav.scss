@@ -1,0 +1,11 @@
+.nav {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: right;
+    
+    &__item {
+        color: $desaturated-blue;
+        text-decoration: none;
+        padding-inline: 0.8em;
+    }
+}
