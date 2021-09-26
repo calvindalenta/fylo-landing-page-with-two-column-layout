@@ -23,3 +23,13 @@
         border: 2px solid black;
     }
 }
+
+@include bigger-than-1024px {
+    .header {
+        &__logo {
+            img {
+                width: 13em;
+            }
+        }
+    }
+}
