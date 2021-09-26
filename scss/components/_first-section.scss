@@ -32,9 +32,9 @@
 
     &__input {
         border: 1px solid black;
+        padding-left: 5%;
 
         &::placeholder {
-            padding: 5%;
             color: $light-gray;
         }
     }
