@@ -3,20 +3,44 @@
     margin: 10% auto;
 
     border: 5px solid yellow;
-
-    &--third {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-
-        & > * {
-            border: 3px solid red;
-        }
-    }
 }
 
 @include bigger-than-1024px {
     .container {
         margin: 5% auto;
+
+        &--first {
+            display: flex;
+            align-items: center;
+            flex-direction: row-reverse;
+            gap: 4%;
+
+            & > * {
+                flex: 0 0 48%;
+                // border: 3px solid blue;
+            }
+        }
+
+        &--second {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: row-reverse;
+
+            & > * {
+                flex: 0 0 50%;
+                border: 3px solid blue;
+            }
+        }
+
+        &--third {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            & > * {
+                border: 3px solid red;
+            }
+        }
     }
 }

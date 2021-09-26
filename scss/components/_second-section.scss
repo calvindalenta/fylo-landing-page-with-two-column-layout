@@ -38,21 +38,6 @@
     .second-section {
         text-align: left;
 
-        &__content {
-            width: 100%;
-            border: 3px solid blue;
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-            flex-direction: row-reverse;
-            // gap: 4%;
-
-            & > * {
-                flex: 0 0 50%;
-                border: 3px solid blue;
-            }
-        }
-
         &__title {
             font-size: 2em;
         }
