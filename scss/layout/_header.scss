@@ -5,12 +5,12 @@
 
     padding: 4%;
 
-    border: 2px solid black;
+    // border: 2px solid black;
 
     &__logo {
         flex: 0 0 30%;
 
-        border: 2px solid black;
+        // border: 2px solid black;
 
         img {
             width: 7em; // 80% on desktop
@@ -20,6 +20,6 @@
     &__nav {
         flex: auto;
         text-align: right;
-        border: 2px solid black;
+        // border: 2px solid black;
     }
 }

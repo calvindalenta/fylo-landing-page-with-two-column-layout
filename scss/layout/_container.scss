@@ -1,8 +1,9 @@
 .container {
     width: 90%;
+    height: 100%;
     margin: 10% auto;
 
-    border: 5px solid yellow;
+    // border: 5px solid yellow;
 }
 
 @include bigger-than-1024px {
@@ -29,7 +30,7 @@
 
             & > * {
                 flex: 0 0 50%;
-                border: 3px solid blue;
+                // border: 3px solid blue;
             }
         }
 
@@ -39,7 +40,7 @@
             justify-content: space-between;
 
             & > * {
-                border: 3px solid red;
+                // border: 3px solid red;
             }
         }
     }
