@@ -1,0 +1,12 @@
+.list-icon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1em;
+
+    &__image {
+        width: 1em;
+        height: 1em;
+    }
+    
+}
