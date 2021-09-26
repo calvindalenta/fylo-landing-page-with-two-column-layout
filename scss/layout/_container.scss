@@ -1,6 +1,12 @@
 .container {
     width: 90%;
-    margin: auto;
+    margin: 10% auto;
 
-    border: 1px solid red;
+    border: 5px solid yellow;
+}
+
+@include bigger-than-1024px {
+    .container {
+        margin: 5% auto;
+    }
 }
