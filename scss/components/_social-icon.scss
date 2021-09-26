@@ -1,0 +1,19 @@
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+
+    &__item {
+        width: 2em;
+        height: 2em;
+        border: 1px solid white;
+        border-radius: 50%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        cursor: pointer;
+    }
+}
