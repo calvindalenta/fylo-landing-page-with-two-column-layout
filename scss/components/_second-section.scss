@@ -1,5 +1,8 @@
 .second-section {
     text-align: center;
+    width: 100%;
+
+    background-image: $desaturated-blue;
 
     border: 2px solid green;
 
@@ -23,7 +26,7 @@
         justify-content: center;
 
         margin-bottom: 1rem;
-        
+
         div {
             padding: 0.5em;
 
@@ -40,5 +43,10 @@
             }
         }
         
+    }
+
+    &__card {
+        width: 90%;
+        margin: auto;
     }
 }
