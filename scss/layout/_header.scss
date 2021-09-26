@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 4%;
+
+    border: 2px solid black;
+
+    &__logo {
+        flex: 0 0 30%;
+
+        border: 2px solid black;
+
+        img {
+            width: 7em; // 80% on desktop
+        }
+    }
+
+    &__nav {
+        flex: auto;
+
+        border: 2px solid black;
+    }
+}
