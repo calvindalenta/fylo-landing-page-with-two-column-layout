@@ -37,3 +37,43 @@
         }
     }
 }
+
+@include bigger-than-1024px {
+    .first-section {
+        text-align: left;
+
+        &__content {
+            width: 100%;
+            border: 3px solid blue;
+            display: flex;
+            align-items: center;
+            flex-direction: row-reverse;
+            gap: 4%;
+
+            & > * {
+                flex: 0 0 48%;
+                // border: 3px solid blue;
+            }
+        }
+
+        &__desc {
+            font-size: 1em;
+        }
+
+        &__image {
+            width: 30%;
+        }
+
+        &__input, &__button {
+            display: inline-block;
+        }
+
+        &__input {
+            width: 50%;
+        }
+
+        &__button {
+            width: 30%;
+        }
+    }
+}
