@@ -6,4 +6,8 @@
     font-weight: 700;
 
     border: none;
+
+    &:hover {
+        background-color: hsl-with-opacity($bright-blue, 0.7);
+    }
 }
