@@ -2,3 +2,9 @@ body {
     font-size: 13px;
     font-family: 'Open Sans', sans-serif;
 }
+
+@include bigger-than-1024px {
+    body {
+        font-size: 18px;
+    }
+}
