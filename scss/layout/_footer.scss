@@ -1,0 +1,11 @@
+.footer {
+    background-color: red; 
+    border: 1px solid red;
+
+
+    &__lists {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+}
