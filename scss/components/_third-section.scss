@@ -1,0 +1,43 @@
+.third-section {
+    text-align: center;
+    background-color: $desaturated-blue;
+
+    border: 2px solid green;
+
+    &__title {
+        font-family: 'Raleway';
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: $light-grayish-blue;
+        margin-block: 2rem;
+    }
+
+    &__desc {
+        font-size: 1.2em;
+        font-weight: 400;
+        color: hsl-with-opacity($light-grayish-blue, 0.8);
+
+        margin-block: 2rem;
+    }
+
+    &__input, &__button {
+        display: block;
+        width: 80%;
+        height: 3em;
+        margin: auto;
+
+        border-radius: 4%;
+
+        // margin-block: 1rem;
+    }
+
+    &__input {
+        margin-bottom: 0.5rem;
+        border: 1px solid black;
+
+        &::placeholder {
+            padding: 5%;
+            color: $light-gray;
+        }
+    }
+}
