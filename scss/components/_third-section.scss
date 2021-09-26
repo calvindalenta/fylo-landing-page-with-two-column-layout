@@ -47,19 +47,6 @@
     .third-section {
         text-align: left;
 
-        &__content {
-            width: 100%;
-            border: 3px solid blue;
-
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-
-            & > * {
-                border: 3px solid red;
-            }
-        }
-
         &__text, &__action {
             flex: 0 0 45%;
         }
